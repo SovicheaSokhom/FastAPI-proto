@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package mypackage;
+
+message Record {
+    int32 id = 1;
+    string name = 2;
+    string singer = 3;
+}
+
+message RecordList {
+    repeated Record Records = 1;
+}
